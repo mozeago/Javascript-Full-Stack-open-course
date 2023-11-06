@@ -1,10 +1,8 @@
-const Content = ({ title, exercises }) => {
+import Part from './Part';
+const Content = (props) => {
   return (
     <>
-      <p>
-        {title}
-        {exercises}
-      </p>
+      <Part {...props} />
     </>
   );
 };
