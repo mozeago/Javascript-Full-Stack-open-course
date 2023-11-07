@@ -1,7 +1,11 @@
-const Part = (parts) => {
+const Part = (name, exercises) => {
+  console.log(name, exercises);
   return (
     <>
-      <p></p>
+      <p>
+        {name}
+        {exercises}
+      </p>
     </>
   );
 };

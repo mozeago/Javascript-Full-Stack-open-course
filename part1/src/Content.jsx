@@ -1,8 +1,8 @@
 import Part from './Part';
-const Content = (parts) => {
+const Content = () => {
   return (
     <>
-      <Part {...parts} />
+      <Part />
     </>
   );
 };
